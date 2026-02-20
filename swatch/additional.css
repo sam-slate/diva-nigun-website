@@ -1,0 +1,16 @@
+iframe {
+    display: block;
+    border-style:none;
+    margin: auto;
+}
+
+p{
+    word-break: normal;
+    white-space: pre-wrap;
+}
+
+.white-space-normal {
+  word-break: normal;
+  white-space: pre-wrap;
+}
+
