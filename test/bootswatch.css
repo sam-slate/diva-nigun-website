@@ -191,3 +191,13 @@ section {
 		width: 1168px; /* 2px less to account for left/right borders being removed when in fixed mode */
 	}
 }
+
+/* header nav: bar separator before the store link */
+
+.navbar .nav > li.store-link:before {
+	content: "|";
+	float: left;
+	padding: 10px 0;
+	line-height: 20px;
+	color: #0f0;
+}
